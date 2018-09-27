@@ -22,7 +22,7 @@ WORKDIR /OpenIdConnectServerMock
 
 ENV ASPNETCORE_ENVIRONMENT=Development
 ENV CLIENT_ID=openid-mock-client
-ENV REDIRECT_URIS=http://localhost:3000/auth/oidc
+ENV REDIRECT_URIS=https://baerumkommune-dev.outsystemsenterprise.com/MinSide/LandingPage.aspx,http://localhost:3000/auth/oidc,http://localhost:4004/auth/oidc
 ENV TEST_USER="{\"SubjectId\":\"1\",\"Username\":\"User1\",\"Password\":\"pwd\"}"
 
 EXPOSE 80
